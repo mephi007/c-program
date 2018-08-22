@@ -12,7 +12,7 @@ int main()
 		{
 			if((n-i)< j && j <(n+i))
 			{
-				cout<<"*";
+				cout<<" *";
 
 			}
 			else

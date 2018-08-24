@@ -8,12 +8,12 @@ int main()
 	cout<<"enter mid of diamond\n";
 	cin>>n;
 
-	for(i = 1; i <= 2*n-1 ; i++)
+	for(i = 1; i <= ((2*n)-1) ; i++)
 	{
-		i<=4?k++:k--;
-		for( j = 1; j<= 2*n -1; j++)
+		i<=n?k++:k--;
+		for( j = 1; j<= ((2*n)-1); j++)
 		{
-			if((n-(k-1))<=j && j<= (n+(k-1)))
+			if(((n+1)-k)<j && j< ((n+1)+k))
 			{
 				cout<<"*";
 			}

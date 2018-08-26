@@ -10,18 +10,19 @@ int main()
 	{
 		cin>>a[i];
 	}
-
-	for(i=0; i<5 ; i++)
+	max=a[0];
+	for(i=1; i<5 ; i++)
 	{
-		max = a[i];
-		if(max < a[i+1])
+		// cout<<a[i];
+		// max = a[i];
+		if(max < a[i])
 		{
-			max=a[i+1];
+			max=a[i];
 		}
 
 	}
 
 	cout<<max;
-	return 0;
+	
 
 }

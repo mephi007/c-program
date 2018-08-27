@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-	int a[]= {34,15,29,8};
-	int n=4;
+	int a[]= {334,57,11,18,6,69,12};
+	int n=sizeof(a)/sizeof(a[0]);
 	int j ,i,min, temp;
 
 	for(i=0;i<n;i++)
@@ -24,7 +24,7 @@ int main()
 
 for(int i =0; i < n; i++)
 	{
-		cout<<a[i];
+		cout<<a[i]<<" ";
 	}
 
 
